@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  font-family: 'Lobster';
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+}
+
+.all-repo {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .all-repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
